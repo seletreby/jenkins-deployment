@@ -39,3 +39,5 @@ Jenkins projects are at the core of doing any kind of automation in Jenkins. The
 
 A simple way to implement a CI build in Jenkins is with a **freestyle project**
 
+
+
