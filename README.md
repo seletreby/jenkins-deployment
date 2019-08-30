@@ -32,7 +32,8 @@ Access jenkin using its IP and port 8080
 ```
 http://158.177.112.231:8080
 ````
-you will be providing by password verification. copy the string of file ``` /var/lib/jenkins/secrets/initialAdminPassword ``` and post it on the box. Then select install recommended plugins. The next step is to provide Jenkins admin user and its password. I used a user called jenkins. 
+you will be providing by password verification. copy the string of file ``` /var/lib/jenkins/secrets/initialAdminPassword ``` and post it on the box. Then select install recommended plugins. The next step is to provide Jenkins admin user and its password. I used a user called jenkins. Once finished you will be login to Jenkins and see the first Jenkin welcome page
+![](./images/Jenkins-welcome.png)
 
 ## Setup Jenkins Project
 Jenkins projects are at the core of doing any kind of automation in Jenkins. The CI process for an application is generally configured in Jenkins as a Jenkins project. 
