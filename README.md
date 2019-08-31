@@ -41,5 +41,12 @@ Jenkins projects are at the core of doing any kind of automation in Jenkins. The
 
 A simple way to implement a CI build in Jenkins is with a **freestyle project**
 
+I will use a github project hosted on ``` https://github.com/linuxacademy/cicd-pipeline-train-schedule-jenkins.git ``` and use it to build freestyle project.
+Click on __new item__ type a project name, select freestyle and press ok
+
+![](./images/new_item_Free-style.png)
+
+
+
 
 
