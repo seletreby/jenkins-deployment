@@ -56,6 +56,9 @@ Then go down and from build - Add build steps - Our build here is build on Gradl
 ![](./images/buid.png)
 
 The next step is to archieve build as artificate. On the Post-build Actions, select Archieve the artificats. And the file will be on dist/trainingSchedule.zip and then click save
+![](./images/post-build.png)
+
+Then we can run the build by clicking on build now
 
 
 
