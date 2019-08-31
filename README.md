@@ -53,6 +53,6 @@ Click ok and From Source Code Management choose Git and enter git hub url ```  h
 
 Then go down and from build - Add build steps - Our build here is build on Gradle. Then select Use Gradle Wrapper and enter build on the tasks
 
-![](./images/build.png)
+![](./images/buid.png)
 
 
