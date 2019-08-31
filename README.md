@@ -48,10 +48,11 @@ Click on __new item__ type a project name, select freestyle and press ok
 
 Click ok and From Source Code Management choose Git and enter git hub url ```  https://github.com/linuxacademy/cicd-pipeline-train-schedule-jenkins ```  
 
+![](./images/source-code.png)
 
 
+Then go down and from build - Add build steps - Our build here is build on Gradle. Then select Use Gradle Wrapper and enter build on the tasks
 
-Then go down and from build - Add build steps - Our build here is build on Gradle
-
+[](./images/build.png)
 
 
