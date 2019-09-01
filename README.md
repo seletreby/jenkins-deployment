@@ -65,6 +65,9 @@ Then we can run the build by clicking on build now
 One of the most important aspects of a good CI process is quick feedback whenever there is a change. This means that it is important to execute builds as soon as possible after a code change is pushed to source control. One of the best ways to do this with GitHub and Jenkins is to use webhooks to have GitHub notify Jenkins when there is a change so that Jenkins can automatically start the build. 
 Configure webhooks in jenkins is relatively easy. We need to:
 * Create an access token in GitHub that has permission to read and create webhooks.
-* 
+* Add GitHub Server in Jenkins for GitHub.com.
+* Create a Jenkins credential with the token and configure the GitHub server configuration to use it.
+* Check " Manage Hooks" for the GitHub Server configuration.
+* In the project configuration, under "Build Triggers", Select "GitHub hook trigger for GITScm polling".
 
 
