@@ -60,5 +60,11 @@ The next step is to archieve build as artificate. On the Post-build Actions, sel
 
 Then we can run the build by clicking on build now
 
+## Setting up GitHub webhooks in Jenkins.
+
+One of the most important aspects of a good CI process is quick feedback whenever there is a change. This means that it is important to execute builds as soon as possible after a code change is pushed to source control. One of the best ways to do this with GitHub and Jenkins is to use webhooks to have GitHub notify Jenkins when there is a change so that Jenkins can automatically start the build. 
+Configure webhooks in jenkins is relatively easy. We need to:
+* Create an access token in GitHub that has permission to read and create webhooks.
+* 
 
 
